@@ -65,4 +65,51 @@ public class GetApiController {
         System.out.println(userRequest.getAge());
         return userRequest.toString();
     }
+/*
+
+# JSON 정리
+     xml, json
+     json 데이터 - string, number , boolean, object{ }, array []
+     {
+        "key" , "value"
+     }
+# 참조
+## snake case  :  _ 사용 / phone_number (이런 경우를 더 많이 사용함)
+## camel case  : phoneNumber
+     ex1)
+     {
+        "phone_number" : "010-1111-2222",
+        "age" : 10,
+        "isAgree" : false,
+        "account" : {
+            "email" : "steve@gmail.com",
+            "password : "1234"
+        }
+     }
+     ex2)
+     //user 조회하는 경우
+     {
+        "user_list" : [
+             {
+                  "account" : "abcd",
+                  "password" : "1235t"
+              }
+              {
+                  "account" : "abce",
+                  "password" : "12364"
+              }
+              {
+                  "account" : "abcf",
+                  "password" : "7123"
+              }
+        ]
+     }
+    ex03)
+    {
+        "account" :"",
+        "email" : "",
+        "password :"",
+        "address" : ""
+    }
+     */
 }

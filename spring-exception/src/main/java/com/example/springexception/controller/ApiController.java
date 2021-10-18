@@ -4,18 +4,25 @@ package com.example.springexception.controller;
 import com.example.springexception.dto.User;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @RestController
 @RequestMapping("/api")
+@Validated
 public class ApiController {
 
     @GetMapping("/user")
-    public User get(@RequestParam(required = false) String name, @RequestParam(required = false) int age){
-
+    public User get(
+                    @Size(min = 1)
+                    @RequestParam(required = false) String name,
+                    @NotNull
+                    @RequestParam(required = false) int age){
         User user = new User();
         user.setName(name);
         user.setAge(age);

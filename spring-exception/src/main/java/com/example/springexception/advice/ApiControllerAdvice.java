@@ -1,5 +1,6 @@
 package com.example.springexception.advice;
 
+import com.example.springexception.controller.ApiController;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -7,8 +8,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 //basepackage 지정
-@RestControllerAdvice
-public class GlobalControllerAdvice {
+@RestControllerAdvice(basePackageClasses = ApiController.class)
+public class ApiControllerAdvice {
 
     @ExceptionHandler(value = Exception.class)  //전체 예외를 다잡을 것이다.
     public ResponseEntity <?> exception(Exception e){

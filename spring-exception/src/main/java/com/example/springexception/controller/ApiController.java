@@ -39,10 +39,6 @@ public class ApiController {
         return user;
     }
 
-    /*
-    1. 방법 - controller advice를 사용
-
-     */
 
     //우선순위 : 내부 -> Global
     //특정 메서드의 예외를 잡을 떄 => Controller 안에서만 동작한다.

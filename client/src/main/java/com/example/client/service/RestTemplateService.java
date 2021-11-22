@@ -2,6 +2,8 @@ package com.example.client.service;
 
 import com.example.client.dto.UserRequest;
 import com.example.client.dto.UserResponse;
+import org.springframework.http.MediaType;
+import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -85,4 +87,51 @@ public class RestTemplateService {
 
         return response.getBody();
     }
+
+    public UserResponse exchange(){
+        URI uri = UriComponentsBuilder
+                .fromUriString("http://localhost:9090")
+                .path("/api/server/user/{userId}/name/{userName}")
+                .encode()
+                .build()
+                .expand(100, "steve")            //userId userName
+                .toUri();
+        System.out.println(uri);
+
+        //http body -> object -> object Mapper -> json -> rest template -> http body json
+
+        UserRequest req = new UserRequest("steve", 10);
+
+        //## Server가 Header를 요구할떄.
+        //RequestEntity 만들기 -> header 를 실어서 보낸다.
+        RequestEntity<UserRequest> requestEntity = RequestEntity
+                .post(uri)
+                .contentType(MediaType.APPLICATION_JSON)
+                .header("x-authorization", "abcd")
+                .header("custom-header","ffff")
+                .body(req);//RequestBody에 넣는다.
+
+        RestTemplate restTemplate = new RestTemplate();
+        ResponseEntity<UserResponse> response = restTemplate.exchange(requestEntity, UserResponse.class);    //requestEntity 넣기
+
+        return response.getBody();
+/*
+
+        현업에서 json형태가 이런 경우가 있다.
+        이 형식이 default형식으로 갖는 경우.
+
+        ex) 이런걸 어떻게 디자인 하느냐?!
+        {
+            "header" : {
+                "response_code" : "OK"
+            },
+            "body" : {
+                "name" : "steve",
+                "age"  : "10
+            }
+        }
+ */
+    }
+
+
 }

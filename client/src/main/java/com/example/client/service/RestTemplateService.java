@@ -1,7 +1,9 @@
 package com.example.client.service;
 
+import com.example.client.dto.Req;
 import com.example.client.dto.UserRequest;
 import com.example.client.dto.UserResponse;
+import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.MediaType;
 import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
@@ -9,7 +11,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
+import java.lang.reflect.ParameterizedType;
 import java.net.URI;
+import java.util.Objects;
 
 @Service
 public class RestTemplateService {
@@ -102,13 +106,13 @@ public class RestTemplateService {
 
         UserRequest req = new UserRequest("steve", 10);
 
-        //## Server가 Header를 요구할떄.
-        //RequestEntity 만들기 -> header 를 실어서 보낸다.
+        // ## Server가 Header를 요구할떄.
+        // RequestEntity 만들기 -> header 를 실어서 보낸다. (요청을 보냄)
         RequestEntity<UserRequest> requestEntity = RequestEntity
                 .post(uri)
-                .contentType(MediaType.APPLICATION_JSON)
-                .header("x-authorization", "abcd")
-                .header("custom-header","ffff")
+                .contentType(MediaType.APPLICATION_JSON)                    //JSON 타입으로
+                .header("x-authorization", "abcd")   //header에 담는거
+                .header("custom-header","ffff")      //header값을 계속해서 추가할 수 있음.
                 .body(req);//RequestBody에 넣는다.
 
         RestTemplate restTemplate = new RestTemplate();
@@ -133,5 +137,37 @@ public class RestTemplateService {
  */
     }
 
+    public Req<UserResponse> genericExchange(){
+        URI uri = UriComponentsBuilder
+                .fromUriString("http://localhost:9090")
+                .path("/api/server/user/{userId}/name/{userName}")
+                .encode()
+                .build()
+                .expand(100, "steve")            //userId userName
+                .toUri();
+        System.out.println(uri);
 
+        UserRequest userRequest = new UserRequest("steve", 10);
+        Req <UserRequest> req = new Req<>();
+        req.setHeader(
+                new Req.Header()
+        );
+        req.setHttpBody(
+                userRequest
+        );
+
+        RequestEntity<Req<UserRequest>> requestEntity = RequestEntity
+                .post(uri)
+                .contentType(MediaType.APPLICATION_JSON)                    //JSON 타입으로
+                .header("x-authorization", "abcd")   //header에 담는거
+                .header("custom-header","ffff")      //header값을 계속해서 추가할 수 있음.
+                .body(req);                                                 //RequestBody에 넣는다.
+
+        RestTemplate restTemplate = new RestTemplate();
+
+        ResponseEntity<Req<UserResponse>> response
+                = restTemplate.exchange(requestEntity, new ParameterizedTypeReference<Req<UserResponse>>(){}); // generic 에 class 못함
+
+        return response.getBody();    //getBody 두번,
+    }
 }

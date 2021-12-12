@@ -1,5 +1,6 @@
 package com.example.client.controller;
 
+import com.example.client.dto.Req;
 import com.example.client.dto.UserResponse;
 import com.example.client.service.RestTemplateService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,9 +21,10 @@ public class ApiController {
     }
 
     @GetMapping("/hello")
-    public UserResponse getHello(){
+    public Req<UserResponse> getHello(){
         //return restTemplateService.hello();
         //return restTemplateService.post();
-        return restTemplateService.exchange();
+        //return restTemplateService.exchange();
+        return restTemplateService.genericExchange();
     }
 }

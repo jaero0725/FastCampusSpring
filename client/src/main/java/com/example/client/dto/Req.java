@@ -13,7 +13,7 @@ public class Req<T> {
 
     private Header  header;
 
-    private T body;    //내용이 바뀐다. => 제네릭타입
+    private T httpBody;    // 내용이 바뀐다. => 제네릭타입으로 받는다.
 
     @Data
     @ToString

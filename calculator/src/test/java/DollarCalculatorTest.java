@@ -10,7 +10,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 @ExtendWith(MockitoExtension.class) //모킹 할 수 있는 환경 -> marketApi
 public class DollarCalculatorTest {
 
-    @Mock   //Mock처리
+    @Mock   //Mock 처리 -> 변경되는 거
     public MarketApi marketApi;
 
     @BeforeEach //test 실행 이전에 실행할것

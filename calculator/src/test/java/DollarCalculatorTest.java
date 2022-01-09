@@ -46,4 +46,5 @@ public class DollarCalculatorTest {
         Assertions.assertEquals(60000,calculator.sum(10,10));    //원하는 결과가 22000이라는 뜻
         Assertions.assertEquals(0,calculator.minus(10,10));
     }
+    //test
 }

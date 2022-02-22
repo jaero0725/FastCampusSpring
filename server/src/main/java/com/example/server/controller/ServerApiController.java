@@ -58,7 +58,9 @@ public class ServerApiController {
     }
 
     @GetMapping("/hello")
-    public User hello(@RequestParam String name, @RequestParam int age){
+    public User hello(
+            @RequestParam(required = false) String name,
+            @RequestParam(required = false) int age){
 
         //echo
         User user = new User();

@@ -6,4 +6,4 @@
 * GitHub
 
 ## :clipboard: 프로젝트 
-* <a href="#">네이버 지역검색 API를 활용한 맛집 List 만들기</a>
+* <a href="https://github.com/jaero0725/FastCampusSpring/tree/main/naverApiProject">네이버 지역검색 API를 활용한 맛집 List 만들기</a>

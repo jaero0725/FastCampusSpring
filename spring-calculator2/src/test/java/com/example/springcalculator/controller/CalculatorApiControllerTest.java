@@ -75,3 +75,12 @@ public class CalculatorApiControllerTest {
         ).andDo(MockMvcResultHandlers.print());
     }
 }
+
+/*
+ 테스트커버리지
+ 옵션을 줘서 제외 시킬 수 도 있고, 빌드할떄 볼 수 있다.
+
+ gradle 에 id jacoco 넣어주면된다. 
+ gradle 에서 test 실행해주면 된다.
+
+ */

@@ -10,23 +10,21 @@ import java.util.List;
 
 @Slf4j
 @RestController
-@RequestMapping("/api/restaurant/")
+@RequestMapping("/api/restaurant")
 @RequiredArgsConstructor
 public class ApiController {
 
     private final WishListService wishListService;
 
-    // 검색
     @GetMapping("/search")
     public WishListDto search(@RequestParam String query){
         return wishListService.search(query);
     }
 
-    // wishList 추가
     @PostMapping("")
     public WishListDto add(@RequestBody WishListDto wishListDto){
-      log.info("{}", wishListDto);
-      return wishListService.add(wishListDto);
+        log.info("{}", wishListDto);
+        return wishListService.add(wishListDto);
     }
 
     @GetMapping("/all")
@@ -43,4 +41,5 @@ public class ApiController {
     public void addVisit(@PathVariable int index){
         wishListService.addVisit(index);
     }
+
 }

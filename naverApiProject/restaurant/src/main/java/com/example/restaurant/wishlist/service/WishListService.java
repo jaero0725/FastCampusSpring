@@ -19,30 +19,25 @@ public class WishListService {
     private final NaverClient naverClient;
     private final WishListRepository wishListRepository;
 
-    public WishListDto search(String query) {
-
+    public WishListDto search(String query){
         // 지역검색
         var searchLocalReq = new SearchLocalReq();
         searchLocalReq.setQuery(query);
-
         var searchLocalRes = naverClient.searchLocal(searchLocalReq);
 
         if(searchLocalRes.getTotal() > 0){
             var localItem = searchLocalRes.getItems().stream().findFirst().get();
-
-            System.out.println("================================1 : " + localItem.getTitle());
-            var imageQuery = localItem.getTitle().replaceAll("<(/)?([a-zA-Z]*)(\\\\s[a-zA-Z]*=[^>]*)?(\\\\s)*(/)?>", ""); // 괄호 제거
-            System.out.println("================================2 : " + imageQuery);
+            var imageQuery = localItem.getTitle().replaceAll("<[^>]*>","");
             var searchImageReq = new SearchImageReq();
             searchImageReq.setQuery(imageQuery);
 
-            // 이미지검색
+            // 이미지 검색
             var searchImageRes = naverClient.searchImage(searchImageReq);
 
-            if (searchImageRes.getTotal() > 0){
+            if(searchImageRes.getTotal() > 0){
                 var imageItem = searchImageRes.getItems().stream().findFirst().get();
+
                 // 결과를 리턴
-                System.out.println("결과를 리턴");
                 var result = new WishListDto();
                 result.setTitle(localItem.getTitle());
                 result.setCategory(localItem.getCategory());
@@ -50,20 +45,19 @@ public class WishListService {
                 result.setRoadAddress(localItem.getRoadAddress());
                 result.setHomePageLink(localItem.getLink());
                 result.setImageLink(imageItem.getLink());
-
                 return result;
             }
         }
+
         return new WishListDto();
     }
 
-    // DB에 저장해주는 메서드
     public WishListDto add(WishListDto wishListDto) {
-        //dto -> entity로 저장
         var entity = dtoToEntity(wishListDto);
         var saveEntity = wishListRepository.save(entity);
         return entityToDto(saveEntity);
     }
+
 
     private WishListEntity dtoToEntity(WishListDto wishListDto){
         var entity = new WishListEntity();
@@ -95,9 +89,11 @@ public class WishListService {
         return dto;
     }
 
-
     public List<WishListDto> findAll() {
-        return wishListRepository.findAll().stream().map(it -> entityToDto(it)).collect(Collectors.toList());
+        return wishListRepository.findAll()
+                .stream()
+                .map(it -> entityToDto(it))
+                .collect(Collectors.toList());
     }
 
     public void delete(int index) {

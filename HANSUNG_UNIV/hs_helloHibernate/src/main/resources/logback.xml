@@ -13,12 +13,15 @@
     	<logger name="kr.ac.hansung.cse">
     	    <level value="DEBUG" />
     	</logger>
+    	
     	<!-- org.hibernate에 대해서 자세히 보기 위해 추가. -->
     	<logger name="org.hibernate.type.descriptor.sql">
     	    <level value="Trace" />
     	</logger>
+    	
     	<root>
     		<level value="INFO" />
     		<appender-ref ref="consoleAppender" />
     	</root>
+    	
     </configuration>

@@ -5,6 +5,7 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
 	<session-factory>
+		<!-- 설정 정보 -->
 		<!-- JDBC Database connection settings -->
 		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 		<property name="connection.url">jdbc:mysql://localhost:3306/testdb?useSSL=false&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Seoul</property>
@@ -12,10 +13,13 @@
 		<property name="connection.password">hansung</property>
 		
 		<property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>
-		<property name="show_sql">true</property>
-		<property name="current_session_context_class">thread</property>
+		<property name="show_sql">true</property>	<!-- 생성된 sql문을 볼것인지? show_sql -->
+		<property name="current_session_context_class">thread</property>	<!-- session factory에서 session을 만들면 thread로 바인딩 -->
 		<property name="hbm2ddl.auto">create</property>
-
+		<!-- hbm2ddl.auto table을 자동으로 생성할 것인지에 대한속성  -->
+		<!--   create : 자동적으로 테이블을 생성해 준다. || update: 변경사항만 업데이트 -->	
+		
+		<!-- 매핑정보  -->
 		<mapping class="entity.Product"/>
 	</session-factory>
 </hibernate-configuration>

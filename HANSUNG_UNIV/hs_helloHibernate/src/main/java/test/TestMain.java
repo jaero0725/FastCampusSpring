@@ -80,6 +80,7 @@ public class TestMain {
 				-> 실제 데이터베이스에서 읽은게 아니고, cache에 남아 있어서 바로 출력하기 때문에, commit 했을때 데이터베이스에 반영이 됨.
 				=> 클래스 state -> DB 성능 향상 
 				3. 복잡한 작업 (쿼리를 실제로 만들때) : createQuery(), HQL을 사용한다.
+				4. hibernate_sequence 라는 테이블의 next_val이라는 컬럼 
 				
 		 */
 		

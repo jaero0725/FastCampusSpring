@@ -58,7 +58,7 @@ public class TestMain {
 		tx.commit();
 		session.close();
 		
-		// session2 : LAZY , EAGER 구분
+		//session2 : LAZY , EAGER 구분
 		Session session2 = sessionFactory.openSession();
 		Transaction tx2 = session2.beginTransaction();
 		

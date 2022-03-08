@@ -51,12 +51,14 @@ public class TestMain {
 		
 		//category2인 product3을 삭제하면? category2도 삭제된다.
 		session.delete(product3);
+		
 		/*  ## 결과 :
 			Hibernate: delete from product where product_id=?
 			.12:04:14.036 [main] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [4] 
 			Hibernate: delete from category where catgory_id=?
 			.12:04:14.040 [main] TRACE o.h.type.descriptor.sql.BasicBinder - binding parameter [1] as [INTEGER] - [5] 
 		 */
+		
 		//product1, product2 -> category1, product2 는 없는 category1를 가리키게된다. (심각한 문제) 
 		product1.setCategory(null);  //product1 -> category를 끊고 삭제함.  <= 해결책 
 		session.delete(product1);

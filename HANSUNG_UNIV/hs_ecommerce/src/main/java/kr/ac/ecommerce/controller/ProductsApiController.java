@@ -21,9 +21,8 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequestMapping(path = "/api/products")
 @RequiredArgsConstructor
-public class CategoryProductsApiController {
+public class ProductsApiController {
 
-	
 	private final ProductService productService;
 	
 	// CREATE - POST | create a new product

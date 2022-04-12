@@ -14,29 +14,29 @@ import lombok.RequiredArgsConstructor;
 @Repository
 @RequiredArgsConstructor
 public class ProductDao {
-	
-	private SessionFactory sessionFactory;
-	
-	public int createProduct(Product product) {
-		Session session = sessionFactory.getCurrentSession();
-		int id = (int) session.save(product);
-		session.flush();
-		return id;
-	}
 
-	public Product getProductById(int id) {
-		Session session = sessionFactory.getCurrentSession();
-		Product product = session.get(Product.class, id);
-		return product;
-	}
+    private SessionFactory sessionFactory;
 
-	public List<Product> getAllProducts() {
-		Session session = sessionFactory.getCurrentSession();
-		String hql = "from Product";
-		Query<Product> query = session.createQuery(hql, Product.class);
-		
-		List<Product> productList = query.getResultList();
-		return productList;
-	}
-	
+    public int createProduct(Product product) {
+        Session session = sessionFactory.getCurrentSession();
+        int id = (int) session.save(product);
+        session.flush();
+        return id;
+    }
+
+    public Product getProductById(int id) {
+        Session session = sessionFactory.getCurrentSession();
+        Product product = session.get(Product.class, id);
+        return product;
+    }
+
+    public List<Product> getAllProducts() {
+        Session session = sessionFactory.getCurrentSession();
+        String hql = "from Product";
+        Query<Product> query = session.createQuery(hql, Product.class);
+
+        List<Product> productList = query.getResultList();
+        return productList;
+    }
+
 }

@@ -10,16 +10,16 @@ import kr.ac.hansung.model.Offer;
 
 @Service
 public class OfferService {
-	
-	@Autowired
-	private OfferDao offerDao;
-	
-	public List<Offer> getCurrent() {
-		return offerDao.getOffers();
-	}
 
-	public void insert(Offer offer) {	
-		offerDao.insert(offer);
-	}
+    @Autowired
+    private OfferDao offerDao;
+
+    public List<Offer> getCurrent() {
+        return offerDao.getOffers();
+    }
+
+    public void insert(Offer offer) {
+        offerDao.insert(offer);
+    }
 
 }

@@ -20,18 +20,18 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name="category")
+@Table(name = "category")
 public class Category {
-	
-	@Id
-	@GeneratedValue
-	@Column(name="category_id")
-	private int id;
-	
-	private String name;
 
-	private String discription;
-	
-	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-	private Set <Product> products = new HashSet <Product>();
+    @Id
+    @GeneratedValue
+    @Column(name = "category_id")
+    private int id;
+
+    private String name;
+
+    private String discription;
+
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private Set<Product> products = new HashSet<Product>();
 }

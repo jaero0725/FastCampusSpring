@@ -14,24 +14,24 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name ="product")
+@Table(name = "product")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class Product {
-	
-	@Id							
-	@GeneratedValue				
-	@Column(name="product_id")	
-	private int id;
-	
-	private String name;
-	
-	private int price;
-	
-	private String description;
-	
-	@ManyToOne(fetch=FetchType.EAGER)
-	@JoinColumn(name="category_id")
-	private Category cateogry;
+
+    @Id
+    @GeneratedValue
+    @Column(name = "product_id")
+    private int id;
+
+    private String name;
+
+    private int price;
+
+    private String description;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "category_id")
+    private Category cateogry;
 }

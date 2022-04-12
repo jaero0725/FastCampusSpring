@@ -23,37 +23,37 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class ProductsApiController {
 
-	private final ProductService productService;
-	
-	// CREATE - POST | create a new product
-	@PostMapping
-	public ResponseEntity<Product> createProduct(@RequestBody ProductDto request){
-		Product product = productService.createProduct(request);
-		return new ResponseEntity<Product>(product, HttpStatus.CREATED);
-	}
-	
-	// READ  - GET   | get a product
-	@GetMapping(path="/{id}")
-	public ResponseEntity<Product> getProductById(@PathVariable int id) throws NotFoundException {
-		Product product = productService.getProductById(id);
-		
-		// null Exception 
-		if( product == null ) {
-			throw new NotFoundException("not found id");
-		}
-		
-		return ResponseEntity.ok(product);
-	}
-	
-	// READ  - GET   | get all products
-	public ResponseEntity<List<Product>> getProducts(){
-		List<Product> products = productService.getAllProducts();
-		
-		if (products.isEmpty()) {
-			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-		}
-		
-		return new ResponseEntity<List<Product>>(products, HttpStatus.OK);
-	}
-	
+    private final ProductService productService;
+
+    // CREATE - POST | create a new product
+    @PostMapping
+    public ResponseEntity<Product> createProduct(@RequestBody ProductDto request) {
+        Product product = productService.createProduct(request);
+        return new ResponseEntity<Product>(product, HttpStatus.CREATED);
+    }
+
+    // READ  - GET   | get a product
+    @GetMapping(path = "/{id}")
+    public ResponseEntity<Product> getProductById(@PathVariable int id) throws NotFoundException {
+        Product product = productService.getProductById(id);
+
+        // null Exception
+        if (product == null) {
+            throw new NotFoundException("not found id");
+        }
+
+        return ResponseEntity.ok(product);
+    }
+
+    // READ  - GET   | get all products
+    public ResponseEntity<List<Product>> getProducts() {
+        List<Product> products = productService.getAllProducts();
+
+        if (products.isEmpty()) {
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        }
+
+        return new ResponseEntity<List<Product>>(products, HttpStatus.OK);
+    }
+
 }

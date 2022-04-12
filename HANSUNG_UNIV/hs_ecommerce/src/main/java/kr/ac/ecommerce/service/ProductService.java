@@ -7,19 +7,19 @@ import kr.ac.ecommerce.entity.Product;
 
 public interface ProductService {
 
-	//CREATE - POST   | create one product
-	public Product createProduct(ProductDto request);
-	
-	//READ   - GET    | get one product
-	public Product getProductById(int id);
-	
-	//READ 	 - GET    | get all product
-	public List<Product> getAllProducts();
-	
-	//UPDATE - PUT    | update one product
-	
-	//DELETE - DELETE | delete one product
-	
-	//DELETE - DELETE | delete all product
-	
+    //CREATE - POST   | create one product
+    public Product createProduct(ProductDto request);
+
+    //READ   - GET    | get one product
+    public Product getProductById(int id);
+
+    //READ 	 - GET    | get all product
+    public List<Product> getAllProducts();
+
+    //UPDATE - PUT    | update one product
+
+    //DELETE - DELETE | delete one product
+
+    //DELETE - DELETE | delete all product
+
 }

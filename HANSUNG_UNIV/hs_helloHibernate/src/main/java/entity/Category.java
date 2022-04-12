@@ -11,13 +11,13 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name="category")
+@Table(name = "category")
 public class Category {
-	
-	@Id
-	@GeneratedValue
-	@Column(name="catgory_id")
-	private int id;
-	
-	private String name;
+
+    @Id
+    @GeneratedValue
+    @Column(name = "catgory_id")
+    private int id;
+
+    private String name;
 }

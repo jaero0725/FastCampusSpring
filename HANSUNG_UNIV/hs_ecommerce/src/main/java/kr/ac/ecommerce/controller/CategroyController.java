@@ -23,34 +23,34 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class CategroyController {
 
-	private CategoryService categoryService;
+    private CategoryService categoryService;
 
-	// Create -POST
-	@PostMapping
-	public ResponseEntity<?> createCategory(@RequestBody @Valid CategoryDto request) {
+    // Create -POST
+    @PostMapping
+    public ResponseEntity<?> createCategory(@RequestBody @Valid CategoryDto request) {
 
-		Category category = categoryService.createCategory(request.getName());
+        Category category = categoryService.createCategory(request.getName());
 
-		return ResponseEntity.status(HttpStatus.CREATED).body(category);
-	}
+        return ResponseEntity.status(HttpStatus.CREATED).body(category);
+    }
 
-	// Read -GET
-	@GetMapping
+    // Read -GET
+    @GetMapping
     public ResponseEntity<?> retrieveAllCategories() {
         final List<Category> categories = categoryService.getAllCategories();
 
         if (categories.isEmpty()) {
-			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-		}
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        }
 
         return ResponseEntity.ok(categories);
-		//return new ResponseEntity<List<Category>>(categories, HttpStatus.OK);
-		
+        //return new ResponseEntity<List<Category>>(categories, HttpStatus.OK);
     }
-	// Read -GET
 
-	// Update -PUT
+    // Read -GET
 
-	// DELTE -DELETE
+    // Update -PUT
+
+    // DELTE -DELETE
 
 }

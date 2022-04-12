@@ -12,7 +12,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ErrorResponse {
-	private String errorCode;
-	private String errorMsg;
-	private String requestURL;
+    private String errorCode;
+    private String errorMsg;
+    private String requestURL;
 }

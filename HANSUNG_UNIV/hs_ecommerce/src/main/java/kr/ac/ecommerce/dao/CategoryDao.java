@@ -11,15 +11,15 @@ import kr.ac.ecommerce.entity.Category;
 @Repository
 public class CategoryDao {
 
-	@Autowired
-	private SessionFactory sessionFactory;
-	
-	//Create
-	public int addCategory(Category category) {
-		Session session = sessionFactory.getCurrentSession();
-		int id = (int) session.save(category);
-		session.flush();
-		return id;
-	}
+    @Autowired
+    private SessionFactory sessionFactory;
+
+    //Create
+    public int addCategory(Category category) {
+        Session session = sessionFactory.getCurrentSession();
+        int id = (int) session.save(category);
+        session.flush();
+        return id;
+    }
 
 }

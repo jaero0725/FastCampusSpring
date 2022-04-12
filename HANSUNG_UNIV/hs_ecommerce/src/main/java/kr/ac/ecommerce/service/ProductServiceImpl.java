@@ -15,29 +15,29 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class ProductServiceImpl implements ProductService {
 
-	private final ProductDao productDao;
+    private final ProductDao productDao;
 
-	@Override
-	public Product createProduct(ProductDto request) {
-		Product product = new Product();
-		product.setName(request.getName());
-		product.setDescription(request.getDiscription());
-		
-		int productId = productDao.createProduct(product);
-		product.setId(productId);
+    @Override
+    public Product createProduct(ProductDto request) {
+        Product product = new Product();
+        product.setName(request.getName());
+        product.setDescription(request.getDiscription());
 
-		return product;
-	}
+        int productId = productDao.createProduct(product);
+        product.setId(productId);
 
-	@Override
-	public Product getProductById(int id) {
-		Product product = productDao.getProductById(id);
-		return product;
-	}
+        return product;
+    }
 
-	@Override
-	public List<Product> getAllProducts() {
-		List<Product> products = productDao.getAllProducts();
-		return products;
-	}
+    @Override
+    public Product getProductById(int id) {
+        Product product = productDao.getProductById(id);
+        return product;
+    }
+
+    @Override
+    public List<Product> getAllProducts() {
+        List<Product> products = productDao.getAllProducts();
+        return products;
+    }
 }

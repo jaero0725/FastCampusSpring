@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ebe44b4-740d-42a4-a2ff-cd4197ad7c73" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/controller/CategroyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/controller/CategroyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/controller/ProductsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/controller/ProductsApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/dao/CategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/dto/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/dto/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/dto/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/service/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/service/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/java/kr/ac/ecommerce/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/webapp/WEB-INF/spring/appServlet/dao-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/webapp/WEB-INF/spring/appServlet/dao-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/webapp/WEB-INF/spring/appServlet/service-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/webapp/WEB-INF/spring/appServlet/service-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/src/test/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/src/test/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/target/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/target/classes/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/target/m2e-wtp/web-resources/META-INF/maven/kr.ac/ecommerce/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/target/m2e-wtp/web-resources/META-INF/maven/kr.ac/ecommerce/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/target/m2e-wtp/web-resources/META-INF/maven/kr.ac/ecommerce/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/target/m2e-wtp/web-resources/META-INF/maven/kr.ac/ecommerce/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_ecommerce/target/test-classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_ecommerce/target/test-classes/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate/src/main/java/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate/src/main/java/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate/src/main/java/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate/src/main/java/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate/src/main/java/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate/src/main/java/test/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/src/main/java/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/src/main/java/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/src/main/java/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/src/main/java/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/src/main/java/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/src/main/java/test/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate_OneToMany_Bidirectional/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate_OneToMany_Bidirectional/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate_OneToMany_Bidirectional/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate_OneToMany_Bidirectional/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneTOMany_Bidirectional/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/src/main/java/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/src/main/java/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/src/main/java/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/src/main/java/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/src/main/java/test/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/src/main/java/test/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate_OneToMany/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate_OneToMany/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate_OneToMany_Unidirectional/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate_OneToMany_Unidirectional/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate_OneToMany_Unidirectional/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/target/classes/META-INF/maven/kr.ac.hansung.cse/helloHibernate_OneToMany_Unidirectional/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloHibernate_OneToMany_Unidirectional/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/controller/GlobalExceptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/controller/GlobalExceptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/controller/RestApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/controller/RestApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/exception/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/exception/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/exception/UserDuplicatedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/exception/UserDuplicatedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/exception/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/exception/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/java/kr/ac/hansung/cse/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/webapp/WEB-INF/spring/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/webapp/WEB-INF/spring/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/src/test/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/src/test/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/target/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/target/classes/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/target/m2e-wtp/web-resources/META-INF/maven/kr.ac.hansung.cse/hs_helloRest/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/target/m2e-wtp/web-resources/META-INF/maven/kr.ac.hansung.cse/hs_helloRest/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/target/m2e-wtp/web-resources/META-INF/maven/kr.ac.hansung.cse/hs_helloRest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/target/m2e-wtp/web-resources/META-INF/maven/kr.ac.hansung.cse/hs_helloRest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloRest/target/test-classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloRest/target/test-classes/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/controller/OfferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/controller/OfferController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/dao/OfferDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/dao/OfferDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/filter/TestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/filter/TestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/model/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/model/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/service/OfferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/java/kr/ac/hansung/service/OfferService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/spring/appServlet/dao-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/spring/appServlet/dao-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/spring/appServlet/security-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/spring/appServlet/security-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/spring/appServlet/service-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/spring/appServlet/service-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/createoffer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/createoffer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/newoffers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/newoffers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/offercreated.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/offercreated.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/offers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/views/offers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/resources/css/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/resources/css/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/main/webapp/resources/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/test/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/src/test/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/target/m2e-wtp/web-resources/META-INF/maven/kr.ac.hansung.cse/helloSpringMVC/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/target/m2e-wtp/web-resources/META-INF/maven/kr.ac.hansung.cse/helloSpringMVC/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/target/m2e-wtp/web-resources/META-INF/maven/kr.ac.hansung.cse/helloSpringMVC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/target/m2e-wtp/web-resources/META-INF/maven/kr.ac.hansung.cse/helloSpringMVC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/target/test-classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hs_helloSpringMVC_SpringHibernate/target/test-classes/log4j.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="27hKfXe0U468oYtbfkC7NwHXYxW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ebe44b4-740d-42a4-a2ff-cd4197ad7c73" name="Default Changelist" comment="" />
+      <created>1649766985348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649766985348</updated>
+      <workItem from="1649766987009" duration="96000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

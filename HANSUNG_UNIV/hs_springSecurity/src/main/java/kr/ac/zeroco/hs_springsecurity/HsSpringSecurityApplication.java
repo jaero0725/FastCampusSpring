@@ -1,13 +1,13 @@
-package kr.ac.zeroco.hs_sprngsecurity;
+package kr.ac.zeroco.hs_springsecurity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HsSprngSecurityApplication {
+public class HsSpringSecurityApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HsSprngSecurityApplication.class, args);
+		SpringApplication.run(HsSpringSecurityApplication.class, args);
 	}
 
 }

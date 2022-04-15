@@ -26,7 +26,6 @@ public class RegistrationController {
 
         return "signup";
     }
-
     @RequestMapping(value = "/signup", method = RequestMethod.POST)
     public String signupPost(@ModelAttribute("user") User user, Model model) {
 

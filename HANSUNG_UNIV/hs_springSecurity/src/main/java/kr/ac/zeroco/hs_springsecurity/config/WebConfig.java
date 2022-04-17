@@ -1,4 +1,4 @@
-package kr.ac.zeroco.hs_sprngsecurity;
+package kr.ac.zeroco.hs_springsecurity.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,13 +10,16 @@ import org.thymeleaf.extras.springsecurity5.dialect.SpringSecurityDialect;
 public class WebConfig implements WebMvcConfigurer{
 
 	@Override
-	public void addViewControllers(ViewControllerRegistry registry){
+	public void addViewControllers(ViewControllerRegistry registry)   {
 		registry.addViewController("/").setViewName("home");
+		registry.addViewController("/login").setViewName("login-bootstrap");
+		registry.addViewController("/home").setViewName("home");
+		registry.addViewController("/admin/home").setViewName("adminhome");
+		registry.addViewController("/accessDenied").setViewName("403");
 	}
 
 	@Bean
 	public SpringSecurityDialect securityDialect() {
 		return new SpringSecurityDialect();
 	}
-
 }
